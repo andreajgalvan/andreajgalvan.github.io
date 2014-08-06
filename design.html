@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+
+	<meta charset="UTF-8">
+	<title>midnight memories</title>
+	<link rel="stylesheet" type="text/css" href="css/hazzastyles.css">
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab|Lato' rel='stylesheet' type='text/css'>
+	
+	<script src="js/jquery-1.11.0.min.js"></script>
+	<script src="js/lightbox.min.js"></script>
+	<link href="css/lightbox.css" rel="stylesheet" />
+
+	<style>
+		body{ background-image: url('images/designbg.png'); background-repeat:no-repeat; background-attachment:fixed;  }
+	</style>	
+</head>
+
+<body>
+
+		<header>
+				<nav>
+					<ul>
+						<li><a href="index.html"><img src="images/logo.png" alt="logo" id="logo"/></a>
+						<li><a href="about.html">About me</a></li>
+						<li><a href="capstone.html">Capstone</a></li>
+						<li><a href="work.html">Schoolwork</a></li>
+						<li><a href="design.html">Web/Graphic Design</a></li>			
+						<li><a href="art.html">Art</a></li>			
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
+			</header>
+
+	<div id="wrapper"> 
+
+		<div id="mainplace">
+			<div id="main">
+				<h2>Graphic Design</h2>
+				<div id="line"></div>
+				<p> Here's some of the graphics I've created, including: tee shirt designs, photosets, and mix covers.</p>
+
+				<div><i>Big Time Rush Photoset</i><br>
+				<a href="images/gd/kendall.png" data-lightbox="graphic design for fun!" data-title="Kendall Schmidt - Big Time Rush"><img src="images/gd/kendall.png" height="150px" width="150px"/></a>	
+				<a href="images/gd/logan.png" data-lightbox="graphic design for fun!" data-title="Logan Henderson - Big Time Rush"><img src="images/gd/logan.png" height="150px" width="150px"/></a>
+				<a href="images/gd/james.png" data-lightbox="graphic design for fun!" data-title="James Maslow - Big Time Rush"><img src="images/gd/james.png" height="150px" width="150px"/></a>				
+				<a href="images/gd/carlos.png" data-lightbox="graphic design for fun!" data-title="Carlos PenaVega - Big Time Rush"><img src="images/gd/carlos.png" height="150px" width="150px"/></a>
+				</div>
+				<br>
+				<div>
+				<i>Mixes</i><br>
+				<a href="images/gd/ratherbe.png" data-lightbox="I've got a mix tape straight out of '94" data-title="No Place I'd Rather Be"><img src="images/gd/ratherbe.png" height="200px" width="200px"/></a>
+				<a href="images/gd/doitallagain.png" data-lightbox="I've got a mix tape straight out of '94" data-title="Do It All Again - Unofficial Big Time Rush Album"><img src="images/gd/doitallagain.png" height="200px" width="200px"/></a>
+				<a href="images/gd/themovement.png" data-lightbox="I've got a mix tape straight out of '94" data-title="The Movement - a One Direction (Punk Rock) Playlist"><img src="images/gd/themovement.png" height="200px" width="200px"/></a>
+				</div>
+
+				<div>
+				<i>T-Shirt Designs</i><br>
+				<a href="images/gd/dat.png" data-lightbox="tees af" data-title="SWCTA Design Academy T-Shirt"><img src="images/gd/dat.png" height="35%" width="35%"/></a>
+				<a href="images/gd/web.png" data-lightbox="tees af" data-title="SWCTA Web Design CO2015 T-Shirt"><img src="images/gd/web.png" height="35%" width="35%"/></a>
+				<a href="images/gd/pat.png" data-lightbox="tees af" data-title="SWCTA Professional Academy T-Shirt"><img src="images/gd/pat.png" height="25%" width="25%"/></a>
+				</div>
+				<h2>Web Design</h2>
+				<div id="line"></div>
+				<p>Here's some designs for sites I've been assigned in the past few years.</p>
+
+				<a href="images/wd/capecod.png" data-lightbox="sites" data-title="Cape Cod Academy - September 2013"><img src="images/wd/capecod.png" height="35%" width="35%"/></a>
+				<a href="images/wd/english.png" data-lightbox="sites" data-title="San Francisco by the Mowgli's - April 2013"><img src="images/wd/english.png" height="35%" width="35%"/></a>
+				<a href="images/wd/it2014.png" data-lightbox="sites" data-title="Girls In Tech 2014 - April 2014"><img src="images/wd/it2014.png" height="35%" width="35%"/></a>
+				<a href="images/wd/skills.png" data-lightbox="sites" data-title="SkillsUSA State - January 2014"><img src="images/wd/skills.png" height="35%" width="35%"/></a>
+
+
+			</div>
+
+		</div>
+
+	</div>	
+
+</div>
+<br><br><br>
+ 		<footer>C2014 I finally got it together</footer>
+
+<script type="text/javascript">
+window.onload = fade
+var i = 0
+function fade() {
+if (i < 100) {
+i=i+10
+}
+var d = document.body.style
+d.filter = "alpha(Opacity="+i+")"
+d.opacity = i/100
+var num = document.all ? 10 : 15
+setTimeout("fade()",num)
+}
+</script>
+
+</body>
+
+</html>

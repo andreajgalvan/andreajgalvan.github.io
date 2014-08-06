@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+
+	<meta charset="UTF-8">
+	<title>midnight memories</title>
+	<link rel="stylesheet" type="text/css" href="css/hazzastyles.css">
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab|Lato' rel='stylesheet' type='text/css'>
+
+	<style>
+		/*body{ background-image: url('images/bg.png'); background-repeat:no-repeat; background-attachment:fixed; background-position: bottom right; }*/
+
+		body {	background:url('images/otherbg.png'); background-attachment: fixed;}
+	</style>
+
+</head>
+
+<body>
+
+<div id="wrapit">
+		<header>
+				<nav>
+					<ul>
+						<li><a href="index.html"><img src="images/logo.png" alt="logo" id="logo"/></a>
+						<li><a href="about.html">About me</a></li>
+						<li><a href="capstone.html">Capstone</a></li>
+						<li><a href="work.html">Schoolwork</a></li>
+						<li><a href="design.html">Web/Graphic Design</a></li>			
+						<li><a href="art.html">Art</a></li>			
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
+			</header>	
+
+	<div id="wrapper"> 
+
+			<!--<header> 
+				<h1> <a href="index.html">Art and Design</a></h1> 
+			</header> -->
+
+		<div id="mainplace">
+
+			<div id="main">
+				<h2>About Me</h2>
+				<div id="line"></div>
+				<p>I moved to Vegas in 2003, and I've been here for most of my life.</p>  
+
+			<ul>
+			<li>My skills:</li>
+				<li>Graphic Design // certified in Illustrator cs6, photoshop cs6</li>
+				<li>Web Design//certified in Adobe Dreamweaver CS6 </li>
+				<li>6+ years of classical training on the viola</li>
+				<li>Drawing both digitally and traditionally</li>
+			</ul>    
+
+			<ul>       
+				<li>I enjoy:</li>
+			       <li>Gaming - Elder Scrolls series, Assassin's Creed series</li>
+			       <li>US history</li>
+			       <li>Writing stories</li>
+			       <li>Archery</li>
+			       <li>Drawing</li>
+			       <li>Playing Viola</li>
+			       <li>Music</li>
+			</ul>
+
+
+				<h2>Resume</h2>
+				<div id="line"></div>
+				<p>View my resume <a href="https://drive.google.com/file/d/0B_B4zdf99aqOS0VfZHE5WUNzb2M/edit?usp=sharing" target="blank">here.</a></p>
+				<br>
+				<br>
+
+
+
+			</div>
+
+		</div>
+
+	</div>	
+</div>
+
+ 		<footer>C2014 I finally got it together</footer>
+ </div>		
+
+<script type="text/javascript">
+window.onload = fade
+var i = 0
+function fade() {
+if (i < 100) {
+i=i+10
+}
+var d = document.body.style
+d.filter = "alpha(Opacity="+i+")"
+d.opacity = i/100
+var num = document.all ? 10 : 15
+setTimeout("fade()",num)
+}
+</script>
+</body>
+
+</html>

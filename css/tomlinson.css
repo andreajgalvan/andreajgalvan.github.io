@@ -1,0 +1,126 @@
+/* tomlinsonstyles v1.01 
+
+Louis Tomlinson, available on Adobe Kuler
+color scheme: 
+#605353 - dark grayish purple //background color  
+#DEDCF1 - light purple
+#163D8E - dark blue
+#6FBEF0 - light blue
+#916658 - light brown 
+*/
+
+body{
+	background-color:#DEDCF1;
+	background-image: url('images/bgg.png'); 
+	background-repeat:no-repeat; 
+	background-attachment:fixed; 
+	background-position: bottom right;
+	font-family: 'Advent Pro', Arial, sans-serif;
+	}
+
+	#wrapper {
+	max-width:850px;
+	padding: 10px;
+
+}	
+
+#mainplace {
+	width:70%;
+	padding: 10px;
+	float:right;
+	border-radius:20px;
+}
+
+h1 {
+	margin-left:12px;
+	font-family:'Josefin Sans', 'Century Gothic', sans-serif;
+	font-size:50px;
+}
+
+/*USE H2 ONLY INSIDE #MAIN K */
+
+h2  {
+	font-family:'Josefin Sans', 'Century Gothic', sans-serif;
+	font-size:30px;
+}
+
+h3{
+	font-family:'Josefin Sans', 'Century Gothic', sans-serif;
+	margin: 0 auto;
+	font-size:20px;
+}
+
+#main {
+	margin-top:-10px;
+	background-color:#6FBEF0;
+	padding:30px;
+	border-radius:20px;
+
+}
+
+#sidenav {	
+	float:left;
+	width:20%;
+	background-color:#6FBEF0;
+	padding:10px;
+	border-radius:20px;
+
+}
+
+#navinfo {
+	padding:5px;
+	font-size:12px;
+	border-top: solid 1px #521117;
+	border-bottom: solid 1px #605353;
+}
+
+nav {
+	max-width:200px;
+	font-size:18px;
+	padding:10px;
+	text-align:center;
+
+}
+
+nav ul {
+	font-family:'Josefin Sans', 'Century Gothic', sans-serif;
+	list-style-type: none;
+	margin-left:-50px;
+}
+
+nav ul li {
+	border-bottom:solid 2px #605353;
+	padding:2px;
+}
+
+
+
+footer { 
+	background-color:#6FBEF0;
+	padding:10px;
+	text-align:right;
+	border-radius:10px;
+	}
+
+/*
+#flex {
+	background-color:#41677D;
+	padding:10px;
+	font-family:'Roboto Slab', 'Courier New', serif;
+	border-radius:20px;
+	margin-bottom:10px;
+} */
+
+#info{
+	padding: 8px;
+}
+
+a {
+	color:#163D8E;
+	text-decoration:none;	
+}
+
+p {
+	font-size:16px;
+	color:#163D8E;
+}    

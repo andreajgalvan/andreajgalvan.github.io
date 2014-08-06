@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+
+	<meta charset="UTF-8">
+	<title>midnight memories</title>
+	<link rel="stylesheet" type="text/css" href="css/hazzastyles.css">
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab|Lato' rel='stylesheet' type='text/css'>
+
+	<style>
+		body{ background-image: url('images/contactbg.png'); background-repeat:no-repeat; background-attachment:fixed;  }
+	</style>	
+</head>
+
+<body>
+
+		<header>
+				<nav>
+					<ul>
+						<li><a href="index.html"><img src="images/logo.png" alt="logo" id="logo"/></a>
+						<li><a href="about.html">About me</a></li>
+						<li><a href="capstone.html">Capstone</a></li>
+						<li><a href="work.html">Schoolwork</a></li>
+						<li><a href="design.html">Web/Graphic Design</a></li>			
+						<li><a href="art.html">Art</a></li>			
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
+			</header>
+
+	<div id="wrapper"> 
+
+		<div id="mainplace">
+			<div id="main">
+				<h2>Contact</h2>
+				<div id="line"></div>
+
+				<p>If you want to contact me, you can reach me by these methods:</p>  
+				<ul>
+					<li>email <a href="mailto:andrea.galvan075@gmail.com"> here </a></li>
+					<li>facebook...</li>
+					<li>twitter...</li>
+					<li>linkedin...</li>
+				</ul>	
+
+
+
+
+			</div>
+
+		</div>
+
+	</div>	
+
+</div>
+ 		<footer>C2014 I finally got it together</footer>
+
+<script type="text/javascript">
+window.onload = fade
+var i = 0
+function fade() {
+if (i < 100) {
+i=i+10
+}
+var d = document.body.style
+d.filter = "alpha(Opacity="+i+")"
+d.opacity = i/100
+var num = document.all ? 10 : 15
+setTimeout("fade()",num)
+}
+</script>
+
+</body>
+
+</html>

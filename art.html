@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+<head>
+
+	<meta charset="UTF-8">
+	<title>midnight memories</title>
+	<link rel="stylesheet" type="text/css" href="css/hazzastyles.css">
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab|Lato' rel='stylesheet' type='text/css'>
+
+	<script src="js/jquery-1.11.0.min.js"></script>
+	<script src="js/lightbox.min.js"></script>
+	<link href="css/lightbox.css" rel="stylesheet" />
+
+	<style>
+		body{ background-image: url('images/artbg.png'); background-repeat:no-repeat; background-attachment:fixed; }
+	</style>	
+</head>
+
+<body>
+			<header>
+				<nav>
+					<ul>
+						<li><a href="index.html"><img src="images/logo.png" alt="logo" id="logo"/></a>
+						<li><a href="about.html">About me</a></li>
+						<li><a href="capstone.html">Capstone</a></li>
+						<li><a href="work.html">Schoolwork</a></li>
+						<li><a href="design.html">Web/Graphic Design</a></li>			
+						<li><a href="art.html">Art</a></li>			
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
+			</header>
+
+	<div id="wrapper"> 
+
+
+		<div id="mainplace">
+			<div id="main">
+				<h2>Art</h2>
+				<div id="line"></div>
+				<p>Come check out my artwork!</p>
+
+				<div id="ec"><i> Editorial Cartoons </i>
+					<p>I worked as the Editorial Cartoonist for the <a href="http://southwestshadow.com">Southwest Shadow</a> my junior and senior year.  Here's some of the gems. <a href="javascript:void(viewer.show(0))">Click!</a></p>
+				</div>
+
+				<div id="sprites">
+					<i> Sprites</i>
+					<p>The summer before junior year, I decided to test out my photoshop skills. I made several little sprites of my friends. They turned out super cute and they're transparent!</p>
+					<img src="images/sprites/1.gif"/>
+					<img src="images/sprites/2.gif"/>
+					<img src="images/sprites/3.gif"/>
+					<img src="images/sprites/4.gif"/>
+					<img src="images/sprites/5.gif"/>
+					<img src="images/sprites/6.gif"/>
+					<img src="images/sprites/7.gif"/>
+					<img src="images/sprites/8.gif"/>
+					<img src="images/sprites/9.gif"/>
+				</div> 
+
+				<div id="sketches">
+					<i>Sketches</i>
+					<p>I really love drawing, and I love drawing my favorite musicians/my friends even more. Here's some sketches from junior year, with some bonus concept art for the award-winning Autism Awareness animation.</p>
+
+					<a href="images/art/autismawarenessconceptart.png" data-lightbox="sketches" data-title="Autism Awareness Animation Concept Art"><img src="images/art/autismawarenessconceptartic.png"/></a>
+					<a href="images/art/harrystylesfashionshow.png" data-lightbox="sketches" data-title="Harry Styles Fashion Show"><img src="images/art/harrystylesfashionshowic.png" height="100px" width="100px"/></a>
+					<a href="images/art/shotinthedark.png" data-lightbox="sketches" data-title="Shot In The Dark"><img src="images/art/shotinthedarkic.png"/></a>
+					<a href="images/art/stevenuniverse.png" data-lightbox="sketches" data-title="Steven Universe inspired Self Portait"><img src="images/art/stevenuniverseic.png"/></a>	
+					<a href="images/art/tomlinson.png" data-lightbox="sketches" data-title="Louis Tomlinson for Doncaster Rovers"><img src="images/art/tomlinsonic.png"/></a>	
+					<a href="images/art/wordpress.jpg" data-lightbox="sketches" data-title="Stressed, Depressed, Well Dressed and Hating Wordpress"><img src="images/art/wordpressic.png"/></a>	
+				</div>	
+
+				<div id="animations">
+					<i>Animations</i>
+					<p>One of my passions (since the 7th grade) is animation.  Every year, I spend a lot of time doing one big animation, with several smaller animations scattered in between.  During junior year, I had to do a lot of animations for projects.  Here's a few. (They're all available for viewing through YouTube!)
+				</div>		
+				<p>What Makes You Super Glue - A Parody of One Direction's What Makes You Beautiful</p>
+				<iframe width="420" height="315" src="//www.youtube.com/embed/w6RCGf5ek3s?rel=0" frameborder="0" allowfullscreen></iframe>
+			</div>
+
+		</div>
+
+
+	</div>	
+
+</div>
+
+ 		<footer>C2014 I finally got it together</footer>
+
+<script type="text/javascript"
+	src="http://slideshow.triptracker.net/slide.js"></script>
+
+				<script type="text/javascript">
+				<!--
+				  var viewer = new PhotoViewer();
+				  viewer.add('images/ec/1genderroles.jpg');
+				  viewer.add('images/ec/2girlsintech.png');
+				  viewer.add('images/ec/3stressrelief.png');
+				  viewer.add('images/ec/4flappybird.png');
+				  viewer.add('images/ec/5toasttojunioryear.jpg');
+				//--></script>
+
+<script type="text/javascript">
+window.onload = fade
+var i = 0
+function fade() {
+if (i < 100) {
+i=i+10
+}
+var d = document.body.style
+d.filter = "alpha(Opacity="+i+")"
+d.opacity = i/100
+var num = document.all ? 10 : 15
+setTimeout("fade()",num)
+}
+</script>
+</body>
+
+</html>

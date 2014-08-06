@@ -1,0 +1,130 @@
+/*pirate styles v1.01
+color scheme: Edward Kenway.
+	base color shirt B9BCA0
+	belt 521117
+	accent 41677D
+	hair 6D6453
+	hair accent 8A7D68
+
+*/
+
+body {
+	background-color:#8A7D68;
+	font-size:14px;
+}
+
+#wrapper {
+	max-width:850px;
+	padding: 10px;
+
+}	
+
+#mainplace {
+	width:70%;
+	background-color:#B9BCA0;
+	padding: 10px;
+	float:right;
+	border-radius:20px;
+
+}
+
+h1 {
+	font-family: Raleway, Helvetica, Arial, sans-serif ;
+	color:#521117;
+	font-size:50px;
+}
+
+/*USE H2 ONLY INSIDE #MAIN K */
+
+h2  {
+	font-family: Raleway, 'Courier New', serif;
+	color:#61777D;
+	font-size:30px;
+}
+
+h3{
+	font-family: Raleway, 'Courier New', serif;
+	color:#61777D;
+	margin: 0 auto;
+	font-size:20px;
+}
+
+#main {
+	font-family:'Roboto Slab', 'Courier New', serif;
+	background-color:#521117;
+	color:#B9BCA0;
+	padding:30px;
+	border-radius:20px;
+	margin-bottom:10px;
+}
+
+#sidenav {	
+	font-family: Raleway, Helvetica, Arial, sans-serif ;
+	float:left;
+	width:20%;
+	background-color:#B9BCA0;
+	padding:10px;
+	border-radius:20px;
+
+}
+
+#navinfo {
+	margin-left:20px;
+	font-size:12px;
+	border-top: solid 3px #521117;
+	border-bottom: solid 3px #521117;
+}
+
+nav {
+	max-width:200px;
+	font-size:18px;
+	margin-left:5px;
+	margin-right:5px;
+	padding:10px;
+	text-align:center;
+
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav ul li {
+	border-bottom:solid 3px #521117;
+	padding:2px;
+}
+
+
+
+footer { 
+	background-color:#41677D;
+	font-family: Raleway, Helvetica, Arial, sans-serif ;;
+	padding:10px;
+	text-align:right;
+	border-radius:10px;
+	margin-top:20px;
+	}
+
+#flex {
+	background-color:#41677D;
+	padding:10px;
+	font-family:'Roboto Slab', 'Courier New', serif;
+	border-radius:20px;
+	margin-bottom:10px;
+}
+
+#info{
+	padding: 8px;
+}
+
+a {
+	color:#41677D;
+	text-decoration:none;
+	
+}
+
+.content {
+   	padding:10px;
+   	border-bottom:solid 1px white;
+   	border-top: solid 1px white;     	
+}

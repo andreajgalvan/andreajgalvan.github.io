@@ -35,7 +35,7 @@ nav{
 }
 
 nav ul li{
-	font-family:'Roboto Slab', serif;
+	font-family:'Sanchez', serif;
 	list-style-type:none;
 	display:inline;
 	text-transform: uppercase;
@@ -75,20 +75,25 @@ p {
 
 h2 {
 	font-size:30px;
-	font-family:'Roboto Slab', serif;
+	font-family:'Sanchez', serif;
 }
 
 h3 {
 	font-size:20px;
-	font-family:'Roboto Slab', serif;
+	font-family:'Sanchez', serif;
 	}
 
 ul {
 	font-family:'Lato', sans-serif;
 }
 
+blockquote {
+	font-family:'Lato', sans-serif;
+	}
+	}
+
 footer {
-	font-family:'Roboto Slab', serif;
+	font-family:'Sanchez', serif;
 	background-color:#000;
 	color:#fff;
 	padding:10px;
@@ -108,6 +113,6 @@ footer {
 }
 
 i{
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Sanchez', serif;
 	font-size:18px;
 }

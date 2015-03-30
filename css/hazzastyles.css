@@ -1,118 +1,124 @@
-/* hazza styles v101
-god bless everything
-*/
+/* hazza styles.css v2.0
+    for the rest of the site!*/
 
-
-html, body {
-	width:100%;
-	background-size:cover;
+/*font awesome fontface*/
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=3.0.1');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=3.0.1') format('embedded-opentype'),
+    url('../fonts/fontawesome-webfont.woff?v=3.0.1') format('woff'),
+    url('../fonts/fontawesome-webfont.ttf?v=3.0.1') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
+
+/*universal*/
 
 body {
-	margin:0;
-	padding:0;
-	height:100%;
+    font-family: 'Open Sans', sans-serif;
 }
 
-#wrapit {
-	min-height:100%;
-	position:relative;
-}
-
-#main {
-	width:50%;
-	margin-left:50px;
-}
-
-header {
-	background-color:#000;
-	margin:0px;
-	width:100%;
-}
-nav{
-	color:#fff;
-	margin-left:-10px;
-}
-
-nav ul li{
-	font-family:'Sanchez', serif;
-	list-style-type:none;
-	display:inline;
-	text-transform: uppercase;
-	font-size:22px;
-	padding:5px;
-	text-align: center;
-	padding: 15px 0;
-
-
-margin: 0 40px 0 0;
-text-transform: uppercase;
--webkit-transition-property: opacity;
--webkit-transition-duration: 500ms;
--moz-transition-property: opacity;
--moz-transition-duration: 500ms;
-
-}
-
-nav ul li a{
-	text-decoration:none;
-	color:#fff;
-}
-
-nav ul:hover li {
-opacity: 0.2;
-
-}
-
-nav ul li:hover {
-opacity: 1;
-}
-
-p {
-	font-family:'Lato', sans-serif;
-	font-size: 17px;
+#main{
+    width:73%;
+    float:left;
+    margin-left:27%;
 }
 
 h2 {
-	font-size:30px;
-	font-family:'Sanchez', serif;
+    text-align:center;
+    letter-spacing: 15px;
+    font-size:30px;
 }
 
-h3 {
-	font-size:20px;
-	font-family:'Sanchez', serif;
-	}
+h3{
+    text-align:center;
+}
 
 ul {
-	font-family:'Lato', sans-serif;
+    list-style-type: none;
 }
 
-blockquote {
-	font-family:'Lato', sans-serif;
-	}
-
-footer {
-	font-family:'Sanchez', serif;
-	background-color:#000;
-	color:#fff;
-	position:fixed;
-	bottom:0;
-	width:100%;
-	height:40px;
-	z-index:999;
+a {
+    text-decoration:none;
+    color:black;
 }
 
-#line {
-	width:60%;
-	border-top:solid 2px black;
-	margin-top:-10px;
+/*navigation*/
+
+#nav ul li a{
+	text-decoration: none;
+	color: #131313;
+    display: block;
+    text-shadow: 0px 0px 5px #fff;
+    letter-spacing: 2px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
-#logo{
-	z-index: 0;
+#nav:hover li a{
+    text-shadow: 0px 0px 5px #0d1a3a;
 }
 
-i{
-	font-family: 'Sanchez', serif;
-	font-size:18px;
+#nav li a:hover{
+    color: #fff;
+    text-shadow: 0px 0px 1px #fff;
+    padding-left: 10px;
+}
+
+aside {
+    background: url(../img/sidebar.png);
+    background-size:100%;
+    background-repeat:no-repeat;
+    width:25%;
+    float:left;
+    height:866px;
+    margin-top: -20px;
+    margin-left: -10px;
+    padding-right:10px;
+    position:fixed;
+    z-index:999;
+}
+nav {
+    margin-top:100px;
+}
+/*end navigation*/
+
+/*for the ABOUT PAGE, and the HIGH SCHOOL page tbh..*/
+#skills, #hs {
+    text-align:center;
+}
+
+#skills ul li{
+    display:inline;
+}
+
+#hs ul li{
+    display:inline;
+}
+
+#capstoneleft {
+    float:left;
+    width:50%;
+}
+
+
+#logo {
+    position:fixed;
+    bottom:0;
+    right:0;
+    float:right;
+    margin-right:-15%;
+}
+
+#shortbio {
+    width:60%;
+    margin-left:20px;
+    margin-top:50px;
+}
+
+.fa {
+    padding:10px;
 }

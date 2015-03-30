@@ -1,37 +1,39 @@
-/*harry styles v101
-just for the front page!!*/
+/* harrystyles.css v 2.0 
+    exclusively for the splash page. */
+
+body {
+    font-family:'Open Sans', sans-serif;
+    margin-left:50px;
+}
 
 h2 {
-	font-family:'Sanchez', serif;
-	font-size:50px;
-	margin-bottom:-20px;
+    font-size:70px;
 }
 
 h3 {
-	font-family: 'Sanchez', serif;
-	font-size: 40px;
-}
-
-#intro {
-	margin-left:40px;
-	margin-bottom:-30px;
+    font-size: 30px;
+    margin-top:-50px;
 }
 
 #nav {
-	margin-left:150px;
-	font-size:35px;
-	font-family: 'Sanchez', serif;
+    margin-top:200px;
 }
 
-#nav ul li {
-	list-style-type: none;
+ul {
+    list-style-type: none;
 }
+
+a {
+    text-decoration:none;
+    color:black;
+}
+
+
 
 #nav ul li a{
 	text-decoration: none;
 	color: #131313;
     display: block;
-    text-transform: uppercase;
     text-shadow: 0px 0px 5px #fff;
     letter-spacing: 2px;
     -webkit-transition: all 0.3s ease-in-out;

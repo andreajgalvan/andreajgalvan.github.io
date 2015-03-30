@@ -3,59 +3,83 @@
 <head>
 
 	<meta charset="UTF-8">
-	<title>Capstone</title>
+	<title>Circuit Cell</title>
 	<link rel="stylesheet" type="text/css" href="css/hazzastyles.css">
-	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab|Lato' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Sanchez:400,400italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300italic' rel='stylesheet' type='text/css'>
 
-
-	<style>
-		body{ background-image: url('images/capstonebg.png'); background-repeat:no-repeat; background-attachment:fixed; background-size:100%; }
-	</style>	
 </head>
 
 <body>
 
-		<header>
-				<nav>
+<div id="mixtape">
+	<aside id="nav">
+            <nav>
+
+        <div id="shortbio">
+            <p style="font-size:20px;">Andrea Galvan</p>
+            <p>high school senior in love with programming and design.</p>
+        </div>
+                
 					<ul>
-						<li><a href="index.html"><img src="images/logo.png" alt="logo" id="logo"/></a>
-						<li><a href="about.html">About me</a></li>
-						<li><a href="capstone.html">Capstone</a></li>
-						<li><a href="work.html">Schoolwork</a></li>
-						<li><a href="design.html">Web/Graphic Design</a></li>			
-						<li><a href="art.html">Art</a></li>			
-						<li><a href="contact.html">Contact</a></li>
-					</ul>
-				</nav>
-			</header>	
+                        <li style="text-decoration:underline;">navigation</li>
+                        <li><a href="about.html">about me</a></li>
+						<li><a href="work.html">high school</a></li>
+						<li><em><a href="capstone.html">capstone</a></em></li>
+						<li><a href="design.html">design portfolio</a></li>			
+						<li><a href="art.html">art portfolio</a></li>			
+						<li><a href="contact.html">contact me</a></li>
+                    </ul>
+			</nav>
+    </aside>	
 
-	<div id="wrapper"> 
-
-		<div id="mainplace">
 			<div id="main">
-				<h2>Senior Capstone</h2>
-				<div id="line"></div>
+                <h2>CAPSTONE(D)</h2>
+                <div style="margin:0 auto; text-align:center;"><a href="http://circuit-cell.github.io"><img src="img/capstonelogo.png"alt="Circuit Cell" width="50%" height="50%"/></a></div>
+                <div id="capstoneleft"><h3>Imagine a world where kids want to learn physics.</h3>
+                <p>Learn about magnets, circuits, and electricity with the Circuit Cell mascots through interactive tutorials and fun quizzes! It's guaranteed that you'll know more about physics by the time you finish going through the site. <br> <br> Circuit Cell is designed to be fun and interactive, and that's exactly what it is.</p>
+                <p><b>Site Features</b></p>
+                    <ul style="list-style-type:hiragana;">
+                        <li>Lessons</li>
+                        <li>Responsiveness (mobile-friendly)</li>
+                        <li>Interactive drag-and-drop tutorials</li>
+                        <li>Quizzes</li>
+                    </ul>
 
-				<h3>Update 1: September 2014</h3>  
-				<p>My partner and I submitted our proposal and got it approved ON THE FIRST TRY. We are going to create a website that targets 5th grade students and teaches them physical science.  We're going to implement HTML5 canvas and have several tutorials for things like electromagnetics and circuits. It's going to be an amazing year!</p>
+                 <h2><a href="http://circuit-cell.github.io" alt="circuit-cell" style="color:#BE3B3B;letter-spacing:2px;">http://circuit-cell.github.io</a></h2>
 
-				<h3>Update 2: October 2014</h3>
-				<p>We've completed our content collection, wireframes, mockups and images.  What we need to do is finish our mobile mockup and start coding for the app.  We're planning on starting our JavaScript Quiz and finding scripts to make our site more interactive.  Lastly, we need to meet with our mentors in order to make sure our content is accurate and such. <br> Image gallery coming soon!</p>
+                </div>
+                <div id="capstoneright">
+                    <img src="img/bros.png" width="50%" height="50%" alt="capstone mascots"/>
+                </div>
 
-				<h3>Update 3: November 2014</h3>
-				<p>Over the weekend I plan on updating this site + page to include everything we've done. It's going to be wonderful. Anyway, my partner has pretty much completed all of the pages. We have a beautiful Javascript quiz and it looks beautiful on the pages. The rest of the images need to be completed, and then we need to make ambiguation/navigation pages for the lessons, tutorials, and quizzes. I'm excited.</p>
+               
+
+
 			</div>
+    
+</div><!--end mixtape-->
 
-		</div>
+            <footer id="logo">
+                <a href="index.html"><img src="img/logo.png"alt="logo" height="25%" width="25%"/></a>
+            </footer>
 
-
-		
-	</div>	
-
-</div>
- 		<footer>C2014 Andrea Galvan</footer>
-
+<!--
+//fade script. idk if you wanna keep it future dray
+<script type="text/javascript">
+window.onload = fade
+var i = 0
+function fade() {
+if (i < 100) {
+i=i+10
+}
+var d = document.body.style
+d.filter = "alpha(Opacity="+i+")"
+d.opacity = i/100
+var num = document.all ? 10 : 15
+setTimeout("fade()",num)
+}
+</script>
+-->
 </body>
 
 </html>

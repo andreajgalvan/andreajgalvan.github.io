@@ -72,10 +72,10 @@ aside {
     background: url(../img/sidebar.png);
     background-size:100%;
     background-repeat:no-repeat;
-    width:25%;
+    width:20%;
     float:left;
     height:866px;
-    margin-top: -20px;
+    margin-top: -26px;
     margin-left: -10px;
     padding-right:10px;
     position:fixed;
@@ -101,24 +101,31 @@ nav {
 
 #capstoneleft {
     float:left;
-    width:50%;
+    width:55%;
 }
 
 
 #logo {
     position:fixed;
-    bottom:0;
-    right:0;
-    float:right;
-    margin-right:-15%;
+    top:10;
+    left:30;
+    z-index:999;
 }
 
-#shortbio {
-    width:60%;
-    margin-left:20px;
-    margin-top:50px;
-}
 
 .fa {
     padding:10px;
+}
+
+#abtmain {
+    margin-left:10%;
+}
+
+#cats {
+    margin-left:38%;
+}
+
+img #imggal {
+    width:200%;
+    height:200%;
 }

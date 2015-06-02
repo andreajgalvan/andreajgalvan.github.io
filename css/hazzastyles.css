@@ -107,8 +107,8 @@ nav {
 
 #logo {
     position:fixed;
-    bottom:10;
-    right:30;
+    top:10px;
+    left:30px;
     z-index:999;
 }
 

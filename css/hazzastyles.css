@@ -70,7 +70,7 @@ a {
 
 aside {
     background: url(../img/sidebar.png);
-    background-size:100%;
+    background-size:90% cover;
     background-repeat:no-repeat;
     width:20%;
     float:left;
@@ -95,8 +95,8 @@ nav {
     display:inline;
 }
 
-#hs ul li{
-    display:inline;
+#hs img {
+    display:inline-block;
 }
 
 #capstoneleft {
